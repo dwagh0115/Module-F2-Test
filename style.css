@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+#frame{
+  width: 1000px;
+  border: 2px solid black;
+}
+#nav{
+    height: 60px;
+    width: 980px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#search{
+    width: 800px;
+    margin-left: 20px;
+    height: 40px;
+    font-size: 15px;
+}
+#searchBtn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+#table{
+    width: 980px;
+    margin-left: 20px;
+    text-align: center;
+}
+.Btn_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.Btn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+#head{
+    height: 40px;
+}
